@@ -27,6 +27,16 @@ that to software.
   a single-file procedural WebGL2 walkthrough: custom geometry, GLSL materials,
   scroll-driven camera motion.
 
+### Local-first starter tools
+
+Small, focused utilities — each with its own tests and CI:
+
+- **[DriverLens](https://github.com/Fredy-E/DriverLens)** — read-only Windows device and driver inventory (x86 / x64 / ARM64).
+- **[ARM64 Compatibility Radar](https://github.com/Fredy-E/ARM64-Compatibility-Radar)** — an evidence-first catalog for Windows-on-ARM compatibility claims.
+- **[Diagnostic Scan Diff](https://github.com/Fredy-E/Diagnostic-Scan-Diff)** — compare diagnostic scan logs locally.
+- **[MeshLab Mini](https://github.com/Fredy-E/MeshLab-Mini)** — a tiny WebGL2 procedural mesh explorer.
+- **[Offline Museum Kit](https://github.com/Fredy-E/Offline-Museum-Kit)** — a single-file procedural 3D exhibit template.
+
 ## Say hi
 
 Anything ARM64, diagnostics, or WebGL — reach me at **fff.eid607@gmail.com**.
