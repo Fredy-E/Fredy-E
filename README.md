@@ -20,7 +20,7 @@ that to software.
 
 - **[USBPcap-ARM64](https://github.com/Fredy-E/USBPcap-ARM64)** — unofficial
   ARM64 port of USBPcap: native Windows-on-ARM build system plus driver and
-  CLI robustness repairs. Verified by CI on a real Windows-on-ARM runner.
+  CLI robustness repairs. Build-time CI is not driver installation, production signing, or hardware qualification.
 - **[VCDS-ARM64](https://github.com/Fredy-E/VCDS-ARM64)** — compatibility
   notes for running Ross-Tech VCDS on Windows 11 on ARM64 (original material only).
 - **[The Tabernacle of Moses](https://github.com/Fredy-E/The-Tabernacle-of-Moses)** —
@@ -31,11 +31,21 @@ that to software.
 
 Small, focused utilities — each with its own tests and CI:
 
-- **[DriverLens](https://github.com/Fredy-E/DriverLens)** — read-only Windows device and driver inventory (x86 / x64 / ARM64).
+- **[DriverLens](https://github.com/Fredy-E/DriverLens)** — read-only Windows device and driver inventory; ARM64 is locally tested, while x86/x64 hardware remains unverified. A local helper is required for live scanning.
 - **[ARM64 Compatibility Radar](https://github.com/Fredy-E/ARM64-Compatibility-Radar)** — an evidence-first catalog for Windows-on-ARM compatibility claims.
 - **[Diagnostic Scan Diff](https://github.com/Fredy-E/Diagnostic-Scan-Diff)** — compare diagnostic scan logs locally.
 - **[MeshLab Mini](https://github.com/Fredy-E/MeshLab-Mini)** — a tiny WebGL2 procedural mesh explorer.
 - **[Offline Museum Kit](https://github.com/Fredy-E/Offline-Museum-Kit)** — a single-file procedural 3D exhibit template.
+
+### Offline automotive tools
+
+Browser prototypes: open `index.html` directly — no server, install, cloud account, or runtime package dependencies.
+
+- **[Sensor Log Studio](https://github.com/Fredy-E/Sensor-Log-Studio)** — inspect CSV channels, gaps and annotations; export CSV or SVG.
+- **[Vehicle Maintenance Timeline](https://github.com/Fredy-E/Vehicle-Maintenance-Timeline)** — keep a local service history, mileage and reminders; import/export JSON backups.
+- **[Diagnostic Session Notebook](https://github.com/Fredy-E/Diagnostic-Session-Notebook)** — save best-effort-redacted sessions and compare before/after fault lists.
+
+These tools organize evidence. They do not control a vehicle or certify a repair; an absent fault is not proof of a fix. Examples are fictional.
 
 ## Say hi
 
