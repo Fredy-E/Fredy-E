@@ -49,4 +49,4 @@ These tools organize evidence. They do not control a vehicle or certify a repair
 
 ## Say hi
 
-Anything ARM64, diagnostics, or WebGL — reach me at **fff.eid607@gmail.com**.
+Anything ARM64, Automotive, diagnostics, or WebGL — reach me at **fff.eid607@gmail.com**.
