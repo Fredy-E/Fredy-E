@@ -18,34 +18,51 @@ that to software.
 
 ## What I'm building
 
+<!-- prototype-status:start -->
+> **Web projects: experimental concept prototypes — ideas for now, not finished products.**
+> Runnable demos and local tests show idea exploration, not production readiness. Features may change or remain unfinished. This applies to the web editions; separately published desktop tooling has its own verification limits.
+<!-- prototype-status:end -->
+
 - **[USBPcap-ARM64](https://github.com/Fredy-E/USBPcap-ARM64)** — unofficial
   ARM64 port of USBPcap: native Windows-on-ARM build system plus driver and
   CLI robustness repairs. Build-time CI is not driver installation, production signing, or hardware qualification.
 - **[VCDS-ARM64](https://github.com/Fredy-E/VCDS-ARM64)** — compatibility
   notes for running Ross-Tech VCDS on Windows 11 on ARM64 (original material only).
 - **[The Tabernacle of Moses](https://github.com/Fredy-E/The-Tabernacle-of-Moses)** —
-  a single-file procedural WebGL2 walkthrough: custom geometry, GLSL materials,
+  an experimental single-file WebGL2 concept: custom geometry, GLSL materials,
   scroll-driven camera motion.
 
-### Local-first starter tools
+### Separately published desktop tooling
 
-Small, focused utilities — each with its own tests and CI:
+- **[DriverLens desktop](https://github.com/Fredy-E/DriverLens/releases/tag/v0.2.0)** — published ARM64 desktop tooling with documented local verification. The installer is unsigned; clean-machine installation and the broader hardware matrix remain unverified. Its browser edition is a separate concept prototype.
 
-- **[DriverLens](https://github.com/Fredy-E/DriverLens)** — read-only Windows device and driver inventory; ARM64 is locally tested, while x86/x64 hardware remains unverified. A local helper is required for live scanning.
+### Local-first web concepts
+
+Experimental demos, not finished products. Existing tests and CI measure narrow implementation behavior, not production readiness.
+
+- **[DriverLens browser edition](https://github.com/Fredy-E/DriverLens)** — read-only Windows inventory concept; a local helper is required for live scanning. Not the separately published desktop edition.
 - **[ARM64 Compatibility Radar](https://github.com/Fredy-E/ARM64-Compatibility-Radar)** — an evidence-first catalog for Windows-on-ARM compatibility claims.
 - **[Diagnostic Scan Diff](https://github.com/Fredy-E/Diagnostic-Scan-Diff)** — compare diagnostic scan logs locally.
 - **[MeshLab Mini](https://github.com/Fredy-E/MeshLab-Mini)** — a tiny WebGL2 procedural mesh explorer.
 - **[Offline Museum Kit](https://github.com/Fredy-E/Offline-Museum-Kit)** — a single-file procedural 3D exhibit template.
 
-### Offline automotive tools
+### Automotive web concepts
 
-Browser prototypes: open `index.html` directly — no server, install, cloud account, or runtime package dependencies.
+Idea-stage browser prototypes, not finished products: open `index.html` directly — no server, install, cloud account, or runtime package dependencies.
 
 - **[Sensor Log Studio](https://github.com/Fredy-E/Sensor-Log-Studio)** — inspect CSV channels, gaps and annotations; export CSV or SVG.
 - **[Vehicle Maintenance Timeline](https://github.com/Fredy-E/Vehicle-Maintenance-Timeline)** — keep a local service history, mileage and reminders; import/export JSON backups.
 - **[Diagnostic Session Notebook](https://github.com/Fredy-E/Diagnostic-Session-Notebook)** — save best-effort-redacted sessions and compare before/after fault lists.
 
 These tools organize evidence. They do not control a vehicle or certify a repair; an absent fault is not proof of a fix. Examples are fictional.
+
+### Printer, network and home-automation concepts
+
+Experimental concept prototypes with runnable demos and fictional samples — ideas for now, not production-ready products. No GitHub release or real-hardware qualification is implied.
+
+- **[PrintCheck](https://github.com/Fredy-E/PrintCheck)** — Windows printer-metadata evidence concept, not a printing/scanning or Windows Protected Print compatibility certificate.
+- **[LanTriage](https://github.com/Fredy-E/LanTriage)** — imported pcap/pcapng evidence concept, not live packet capture or a network-health diagnosis.
+- **[OfflineReadiness](https://github.com/Fredy-E/OfflineReadiness)** — Home Assistant dependency-snapshot concept, not measured offline operation or whole-home certification.
 
 ## Say hi
 
