@@ -26,6 +26,9 @@ that to software.
 - **[USBPcap-ARM64](https://github.com/Fredy-E/USBPcap-ARM64)** — unofficial
   ARM64 port of USBPcap: native Windows-on-ARM build system plus driver and
   CLI robustness repairs. Build-time CI is not driver installation, production signing, or hardware qualification.
+- **[BenchAutopilot](https://github.com/Fredy-E/BenchAutopilot)** — ordered
+  bench-stage runner (Python stdlib) with hash-manifest run receipts; owner-operated,
+  touches no hardware by default. Experimental prototype.
 - **[VCDS-ARM64](https://github.com/Fredy-E/VCDS-ARM64)** — compatibility
   notes for running Ross-Tech VCDS on Windows 11 on ARM64 (original material only).
 - **[The Tabernacle of Moses](https://github.com/Fredy-E/The-Tabernacle-of-Moses)** —
@@ -53,6 +56,8 @@ Idea-stage browser prototypes, not finished products: open `index.html` directly
 - **[Sensor Log Studio](https://github.com/Fredy-E/Sensor-Log-Studio)** — inspect CSV channels, gaps and annotations; export CSV or SVG.
 - **[Vehicle Maintenance Timeline](https://github.com/Fredy-E/Vehicle-Maintenance-Timeline)** — keep a local service history, mileage and reminders; import/export JSON backups.
 - **[Diagnostic Session Notebook](https://github.com/Fredy-E/Diagnostic-Session-Notebook)** — save best-effort-redacted sessions and compare before/after fault lists.
+- **[StudyCards](https://github.com/Fredy-E/StudyCards)** — fault-code triage
+  flashcards over a fictional deck; a study aid, not diagnostic authority.
 
 These tools organize evidence. They do not control a vehicle or certify a repair; an absent fault is not proof of a fix. Examples are fictional.
 
@@ -62,6 +67,8 @@ Experimental concept prototypes with runnable demos and fictional samples — id
 
 - **[PrintCheck](https://github.com/Fredy-E/PrintCheck)** — Windows printer-metadata evidence concept, not a printing/scanning or Windows Protected Print compatibility certificate.
 - **[LanTriage](https://github.com/Fredy-E/LanTriage)** — imported pcap/pcapng evidence concept, not live packet capture or a network-health diagnosis.
+- **[PcapDiff](https://github.com/Fredy-E/PcapDiff)** — compare two USB capture
+  sessions locally (counts, endpoints, drift, payload diffs); fictional fixtures only.
 - **[OfflineReadiness](https://github.com/Fredy-E/OfflineReadiness)** — Home Assistant dependency-snapshot concept, not measured offline operation or whole-home certification.
 
 ## Say hi
